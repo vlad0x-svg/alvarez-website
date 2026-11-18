@@ -1,6 +1,15 @@
 
 /* Header section */
 
+body {
+
+    margin: 0;
+}
+
+h1, p {
+ margin-top: 0;
+}
+
 .site-header {
     display: flex;
     justify-content: space-between;
@@ -41,7 +50,8 @@
 
     background-color: #3B2418;
     background-size: cover;
-    background-image: url(images/hero.jpg);
+    background-image: linear-gradient(#3B241866),url("images/hero.avif");
+    
     background-position: center;
     color: #F7EFE5;
     text-align: center;
@@ -57,7 +67,7 @@
 }
 
 .hero p {
-    font-size: 10px;
+    font-size: 15px;
     margin-bottom: 24px;
 }
 
