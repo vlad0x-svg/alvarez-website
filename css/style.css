@@ -4,6 +4,8 @@
 body {
 
     margin: 0;
+    background-color:antiquewhite;
+    background-color: transparent, 20%;
 }
 
 h1, p {
@@ -80,4 +82,21 @@ h1, p {
 }
 
 /* Card section */
+.featured {
+    text-align: center;
+}
+.card-grid {
+
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.card {
+    width: 300px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 16px;
+    border-color: #3B2418;
+    text-align: center;
+}
 
