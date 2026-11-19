@@ -68,8 +68,9 @@ h1, p {
 }
 
 .site-footer p {
-    margin: 4px 0;
-    font-size: 14px;
+    margin: 5px 0;
+    padding: 0 15px;
+    font-size: 15px;
 }
 
 /* Hero banner section */
@@ -101,6 +102,7 @@ h1, p {
 .order_btn {
     background: #C8843A;
     color: #FFFFFF;
+    font-size: 20px;
     padding: 12px 24px;
     border-radius: 8px;
     text-decoration: none;
@@ -145,6 +147,7 @@ h1, p {
 .tag {
     font-family: serif;
     font-size: 15px;
+    margin-top: 10px;
     color: white;
 
 }
@@ -163,13 +166,12 @@ h1, p {
     color: black;
 }
 .description-text {
-    margin: auto;
-    padding: 15px;
+    margin-top: 40px;
     font-family: serif;
 }
 
 .description-history {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 
