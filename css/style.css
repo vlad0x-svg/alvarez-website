@@ -16,12 +16,15 @@ h1, p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 32px;
+    height: 50px;
+    padding: 0 32px;
     background: #3B2418;
 }
 
 .logo {
     display: flex;
+    align-items: center;
+    gap: 10px;
     font-family: 'Playfair Display', serif;
     font-size: 24px;
     text-decoration: none;
@@ -29,7 +32,7 @@ h1, p {
 }
 
 .logo img {
-    height: 40px;
+    height: 50px;
 }
 
 
@@ -124,8 +127,10 @@ h1, p {
     background: #3B2418;
     border-radius: 10px;
     padding: 16px;
-    border-color: white;
     text-align: center;
+}
+.card:hover {
+    background-color: #C8843A;
 }
 
 .card img {
@@ -148,3 +153,8 @@ h1, p {
     color: white;
 
 }
+
+
+/* Business Short history Section */
+
+
