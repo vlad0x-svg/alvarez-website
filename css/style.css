@@ -1,4 +1,15 @@
 
+/* 
+   COLOR PALETTE:
+   Primary Color:   #3B2418 (Espresso Brown)
+   Secondary Color: #F7EFE5 (Cream)
+   Accent Color:    #C8843A (Caramel Gold)
+   Background:      Warm Cream (#F7EFE5)
+*/
+
+
+
+
 /* Header section */
 
 body {
@@ -148,7 +159,7 @@ h1, p {
     object-fit: cover;
     border: 4px solid ;
     border-radius: 20px;
-    border-color: antiquewhite;
+    border-color: #F7EFE5;
 }
 
 .tag {
