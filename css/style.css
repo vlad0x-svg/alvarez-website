@@ -57,14 +57,18 @@ h1, p {
 /* Footer Seection */
 
 .site-footer {
+    
     background: #3B2418;
     color: #F7EFE5;
-    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px 10px;
     margin-top: 40px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .site-footer p {
@@ -72,6 +76,10 @@ h1, p {
     padding: 0 15px;
     font-size: 15px;
 }
+.right-description {
+    text-align: right;
+}
+
 
 /* Hero banner section */
 .hero {
@@ -172,5 +180,8 @@ h1, p {
 .description-history {
     font-size: 18px;
 }
+
+
+
 
 
