@@ -118,7 +118,7 @@ h1, p {
 }
 
 .order_btn {
-    background: #C8843A;
+    background: #3B2418;
     color: #FFFFFF;
     font-size: 20px;
     padding: 12px 24px;
@@ -128,7 +128,7 @@ h1, p {
 
 .order_btn:hover {
 
-    background-color:#3B2418;
+    background-color:#C8843A;
 }
 
 /* Card - Article section */
