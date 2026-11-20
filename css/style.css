@@ -179,16 +179,16 @@ h1, p {
 
 .description-section {
     text-align: center;
-    font-family: serif;
+    font-family: 'Playfair Display', serif;
     color: black;
 }
 .description-text {
     margin-top: 40px;
-    font-family: serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .description-history {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
