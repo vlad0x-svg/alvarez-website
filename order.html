@@ -33,12 +33,17 @@
     </header>
     
     <main>
+        <section class="page-title">
+            <h1>Pre-Order for Pick-up</h1>
+            <p class="page-paragraph">Choose your drink and pick-up time, and we'll have it ready.</p>
+        </section>
+
         <form class="order-form" action="https://api.web3forms.com/submit" method ="POST">
 
             <input type="hidden" name="access_key" value="4f1fb3a9-5d27-4991-941b-31b1b4a7db70">
             <input type="hidden" name="subject" value="Pre-order from Slowfolk Coffee">
 
-            <label for="name">Full Name </label>
+            <label for="name">Name</label>
             <input type="text" id="full-name" name="name" class="input-forms" required >
 
             <label for="email">Email</label> 
@@ -52,12 +57,22 @@
                 <option>Classic Americano</option>
             </select>
 
+            <label for="quantity"> Quantity</label>
+            <input type="number" id="quantity" name="quantity" class="input-forms" min="1" value="1" required>
+
+            <label for="pickup">Pick-up time</label>
+            <input type="time" id="pickup" name="pickup-time" class="input-forms" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" class="input-forms">
+
             
             <label for="message">Notes</label>
-            <div clas="note-send">
+            <div>
                 <textarea id="message" name="message" class="order-notes"></textarea>
 
                 <button type="submit" class="send-btn">Send Pre-Order</button>
+
             </div>
 
         </form>
