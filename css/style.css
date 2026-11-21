@@ -175,6 +175,28 @@ h1, p {
 
 }
 
+.menu-btn-box {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.menu_btn {
+    display: inline-block;
+    background: #3B2418;
+    color: #FFFFFF;
+    font-size: 17px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+
+.menu_btn:hover {
+    background-color: #C8843A;
+    
+}
+
+
 
 /* Business Short history Section */
 
