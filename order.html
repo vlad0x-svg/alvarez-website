@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Order and Reserve | Slowfolk Coffee</title>
     <meta name="description" content="Locally sourced Mindanao coffee in Bangcud, Malaybalay City.">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     
 </head>
 
@@ -28,28 +33,33 @@
     </header>
     
     <main>
-        <form action="https://api.web3forms.com/submit" method ="POST">
-            <input type="hidden" name="acces_key" value="4f1fb3a9-5d27-4991-941b-31b1b4a7db70">
+        <form class="order-form" action="https://api.web3forms.com/submit" method ="POST">
+
+            <input type="hidden" name="access_key" value="4f1fb3a9-5d27-4991-941b-31b1b4a7db70">
             <input type="hidden" name="subject" value="Pre-order from Slowfolk Coffee">
 
             <label for="name">Full Name </label>
-            <input type="text" id="full-name" name="name" required>
+            <input type="text" id="full-name" name="name" class="input-forms" required >
 
             <label for="email">Email</label> 
-            <input typ="email" id="email" name="email" required>
+            <input typ="email" id="email" name="email" class="input-forms" required>
 
             <label for="drink">Drink</label>
-            <select id="drink" name="drink" required>
+            <select id="drink" name="drink" class="input-forms" required>
                 <option value="">Choose a drink</option>
                 <option>Iced Caramel Macchiato</option>
                 <option>Matcha Tea</option>
                 <option>Classic Americano</option>
             </select>
 
+            
             <label for="message">Notes</label>
-            <textarea id="message" name="message"></textarea>
+            <div clas="note-send">
+                <textarea id="message" name="message" class="order-notes"></textarea>
 
-            <button type="submit">Send Pre-Order</button>
+                <button type="submit" class="send-btn">Send Pre-Order</button>
+            </div>
+
         </form>
         
     </main>

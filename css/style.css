@@ -17,10 +17,17 @@ body {
     margin: 0;
     background-color:#F7EFE5;
     font-family: 'Playfair Display', serif; 
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 h1, p {
  margin-top: 0;
+}
+
+main {
+    flex: 1;
 }
 
 .site-header {
@@ -217,3 +224,49 @@ h1, p {
 
 
 
+/* order.html */
+
+.order-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 50px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: #3B2418 solid 3px;
+}
+
+
+.order-form label {
+    display: block;
+    margin-top: 15px;
+    color:#3B2418;
+}
+.input-forms {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #3B2418;
+    background-color: #F7EFE5;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: 'Lato', serif;
+    color: black;
+    
+
+}
+
+.send-btn {
+    display: block;
+    font-family: 'Lato', serif;
+    margin-top: 5px;
+    padding: 12px 24px;
+    background: #3B2418;
+    color:#F7EFE5;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.send-btn:hover{
+    background: #C8843A;
+}
