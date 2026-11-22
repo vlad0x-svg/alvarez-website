@@ -33,22 +33,32 @@
     </header>
     
     <main>
-        
+
         <section class="page-title">
-            <h1>Pre-Order for Pick-up</h1>
-            <p class="page-paragraph">Choose your drink and pick-up time, and we'll have it ready.</p>
+
+            <h1>Order and Reserve</h1>
+            <p class="page-paragraph">Pre-order your drink for pick-up, or reserve a table for your group</p>
+            <p><a href="#preorder">Pre-order</a> | <a href="#reserve">Reserve a Table</a></p>
+
         </section>
 
-        <form class="order-form" action="https://api.web3forms.com/submit" method ="POST">
+        <section class="page-title">
+
+            <h2>Pre-Order for Pick-up</h2>
+
+        </section>
+
+
+        <form class="order-form" action="https://api.web3forms.com/submit" method ="POST" id="preorder">
 
             <input type="hidden" name="access_key" value="4f1fb3a9-5d27-4991-941b-31b1b4a7db70">
             <input type="hidden" name="subject" value="Pre-order from Slowfolk Coffee">
 
             <label for="name">Name</label>
-            <input type="text" id="full-name" name="name" class="input-forms" placeholder="Name" required >
+            <input type="text" id="name" name="name" class="input-forms" placeholder="Name" required >
 
             <label for="email">Email</label> 
-            <input typ="email" id="email" name="email" class="input-forms" placeholder="Email" required>
+            <input type="email" id="email" name="email" class="input-forms" placeholder="Email" required>
 
             <label for="drink">Drink</label>
             <select id="drink" name="drink" class="input-forms" required>
@@ -78,19 +88,62 @@
             </div>
 
         </form>
+
+        <section class="page-title" id="reserve">
+
+            <h2>Reserve a Table</h2>
+            <p class="page-paragraph">Planning a study group or a small event? Send us your details and we'll confirm by email.</p>
+
+        </section>
+
+        <form class="order-form" action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="4f1fb3a9-5d27-4991-941b-31b1b4a7db70">
+            <input type="hidden" name="subject" value="Reservation from Slowfolk Coffee">
+
+            <label for="res-name">Name</label>
+            <input type="text" id="res-name" name="name" class="input-forms" placeholder="Name" required>
+
+            <label for="res-email">Email</label>
+            <input type="email" id="res-email" name="email" class="input-forms" placeholder="Email" required>
+
+            <label for="res-phone">Phone Number</label>
+            <input type="tel" id="res-phone" name="phone" class="input-forms">
+
+            <label for="res-date">Date</label>
+            <input type="date" id="res-date" name="date" class="input-forms" required>
+
+            <label for="res-time">Time</label>
+            <input type="time" id="res-time" name="time" class="input-forms" required>
+
+            <label for="res-guests">Number of guests</label>
+            <input type="number" id="res-guests" name="guests" class="input-forms" min="1" value="1" required>
+
+            <label for="res-notes">Event type or notes</label>
+            <div>
+                <textarea id="res-notes" name="message" class="order-notes"></textarea>
+
+                <button type="submit" class="send-btn">Send Reservation</button>
+            </div>
+
+        </form>
         
     </main>
     
     <footer class="site-footer">
 
         <div class="left-description">
+
         <p>© 2026 Slowfolk Coffee</p>
         <p>P-2 Bangcud, Malaybalay City, Bukidnon, 8700</p>
+
         </div>
 
         <div class="right-description">
-        <p >Email: alvarezmyrcvlademier@gmail.com</p>
-        <p >Developed by: Myrc Vlademier O. Alvarez</p>
+
+        <p>Email: alvarezmyrcvlademier@gmail.com</p>
+        <p>Developed by: Myrc Vlademier O. Alvarez</p>
+
         </div>
 
         
