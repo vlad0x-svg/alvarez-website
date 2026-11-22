@@ -1,6 +1,7 @@
 
 /* 
    COLOR PALETTE:
+   Background Color: #FAEBD7
    Primary Color:   #3B2418 (Espresso Brown)
    Secondary Color: #F7EFE5 (Cream)
    Accent Color:    #C8843A (Caramel Gold)
@@ -15,7 +16,7 @@
 body {
 
     margin: 0;
-    background-color: #F7EFE5;
+    background-color: #FAEBD7;
     font-family: 'Playfair Display', serif; 
     display: flex;
     min-height: 100vh;
@@ -82,7 +83,7 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 10px 10px;
-    margin-top: 40px;
+    margin-top: 0;
     bottom: 0;
     width: 100%;
     box-sizing: border-box;
@@ -103,7 +104,7 @@ main {
 
     background-color: #3B2418;
     background-size: cover;
-    background-image: linear-gradient(#00000099),url("../images/hero.jpg");
+    background-image: linear-gradient(#00000099),url("../images/background-body.jpg");
     background-position: center;
     color: #F7EFE5;
     text-align: center;
@@ -162,6 +163,7 @@ main {
 .featured {
     text-align: center;
     color: black;
+    margin-bottom: 20px;
 }
 .card-grid {
 
@@ -227,18 +229,46 @@ main {
 
 /* Business Short history Section */
 
+
+
 .description-section {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px;
     font-family: 'Playfair Display', serif;
-    color: black;
+    background-color: #F7EFE5;
+    color: #3B2418;
 }
+
+.coffee-place {
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+}
+
 .description-text {
-    margin-top: 40px;
-    font-family: 'Playfair Display', serif;
+    text-align: left;
+    
 }
 
 .description-history {
     font-size: 16px;
+}
+
+.story-btn {
+    display:inline-block;
+    margin-top: 10px;
+    background: #3B2418;
+    color:#F7EFE5;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.story-btn:hover {
+    background-color:#C8843A;
+    
 }
 
 
@@ -326,7 +356,7 @@ main {
 }
 .process {
     
-    color: #3B2418;
+    color: #000000;
     text-align: center;
     padding: 50px 20px;
     
@@ -347,7 +377,7 @@ main {
 
 .step {
     width: 230px;
-    border: 1px solid #C8843A;
+    border: 3px solid #C8843A;
     border-radius: 40px;
     padding: 25px 20px;
     background: #FFFFFF;
