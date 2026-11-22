@@ -108,6 +108,7 @@ main {
     background-position: center;
     color: #F7EFE5;
     text-align: center;
+    text-shadow: 2px 2px 4px black;
     padding: 75px 30px;
     
 }
@@ -233,7 +234,7 @@ main {
 
 .description-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 40px;
     padding: 40px;
     font-family: 'Playfair Display', serif;
@@ -252,9 +253,11 @@ main {
     
 }
 
-.description-history {
-    font-size: 16px;
+.description-content {
+    font-size: 17px;
+    text-align: left;
 }
+
 
 .story-btn {
     display:inline-block;
