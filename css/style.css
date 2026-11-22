@@ -385,7 +385,7 @@ main {
 }
 .process {
     
-    color: #000000;
+    color: #3B2418;
     text-align: center;
     padding: 50px 20px;
     
@@ -405,11 +405,12 @@ main {
 }
 
 .step {
+    color: white;
     width: 230px;
     border: 3px solid #C8843A;
     border-radius: 40px;
     padding: 25px 20px;
-    background: #FFFFFF;
+    background: #3B2418;
 }
 
 .step h3 {
