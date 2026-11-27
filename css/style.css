@@ -31,6 +31,10 @@ main {
     flex: 1;
 }
 
+a {
+    text-decoration: none;
+}
+
 .site-header {
     display: flex;
     justify-content: space-between;
@@ -46,7 +50,6 @@ main {
     gap: 10px;
     font-family: 'Playfair Display', serif;
     font-size: 24px;
-    text-decoration: none;
     color: #F7EFE5;
 }
 
@@ -65,7 +68,6 @@ main {
 
 .nav-links a {
     color: #F7EFE5;
-    text-decoration: none;
 }
 
 .nav-links a:hover {
@@ -135,7 +137,6 @@ main {
     margin: 5px;
     border: 2px;
     border-radius: 30px;
-    text-decoration: none;
 }
 
 .order_btn:hover {
@@ -167,7 +168,6 @@ main {
     margin-bottom: 20px;
 }
 .card-grid {
-
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
@@ -180,6 +180,7 @@ main {
     border-radius: 10px;
     padding: 16px;
     text-align: center;
+    
 }
 .card:hover {
     background-color: #C8843A;
@@ -219,7 +220,6 @@ main {
     font-size: 17px;
     padding: 15px 25px;
     border-radius: 30px;
-    text-decoration: none;
 }
 
 
@@ -265,7 +265,6 @@ main {
     color:#F7EFE5;
     padding: 12px 24px;
     border-radius: 30px;
-    text-decoration: none;
 }
 
 .story-btn:hover {
@@ -298,7 +297,6 @@ main {
 .form-links a {
     color: #F7EFE5;
     background-color: #3B2418;
-    text-decoration: none;
     font-size: 15px;
     font-size: 18px;
     padding: 8px 16px;
@@ -474,16 +472,14 @@ main {
 
 .contact-title {
     text-align: center;
-    font-family: 'Lato', serif;
-    color: #3B2418;
+    font-family: 'Playfair Display', serif;
+    color: #FFFFFF;
     text-align: center;
-    gap: 30px;
     margin-top: 30px;
-    max-width: 700px;
+    max-width: 500px;
     margin: 30px auto;
-    background-color: #FFFFFF;
+    background-color: #3B2418;
     padding: 30px 20px;
-    border: 5px solid #3B2418;
     border-radius: 30px;
 }
 
@@ -498,17 +494,16 @@ main {
 }
 
 .contact-info {
-    background-color: white;
-    border: 3px solid #C8843A;
+    background-color: #3B2418;
     border-radius: 40px;
     padding: 25px 30px;
-    color:#3B2418;
+    color:#FFFFFF;
     width: 350px;
 }
 
 .contact-info h2 {
     margin-bottom: 5px;
-    color: #3B2418;
+    color: #FFFFFF;
 }
 
 .contact-info p {
@@ -516,7 +511,7 @@ main {
 }
 
 .contact-link {
-    color: #3B2418;
+    color: #FFFFFF;
 }
 
 .contact-link:hover {
@@ -526,6 +521,6 @@ main {
 .contact-map {
     width: 500px;
     height: 450px;
-    border: 3px solid #C8843A;
+    border: 5px solid #3B2418;
     border-radius: 20px;
 }
