@@ -475,14 +475,16 @@ main {
 .contact-title {
     text-align: center;
     font-family: 'Lato', serif;
-    color: white;
+    color: #3B2418;
     text-align: center;
     gap: 30px;
     margin-top: 30px;
-    background-color: #3B2418;
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: #FFFFFF;
     padding: 30px 20px;
-    border: 3px solid #C8843A;
-    border-radius: 5px;
+    border: 5px solid #3B2418;
+    border-radius: 30px;
 }
 
 .contact-section {
